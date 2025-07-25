@@ -1,6 +1,12 @@
-# Mastersel
+# CRM-Dash
 
 A modern Next.js-based admin dashboard application with a focus on product management, orders, and business operations.
+
+## Project Status
+
+**Current Version:** 0.8.6 (See [CHANGELOG.md](CHANGELOG.md))
+
+The project is under active development. See the [ROADMAP.md](ROADMAP.md) for planned features.
 
 ## Tech Stack
 
@@ -39,15 +45,15 @@ src/
 
 ## Features
 
-- [ ] Dashboard - Analytics and overview
-- [ ] Products - Product management system
-- [ ] Orders - Order processing and tracking
-- [ ] Balance - Financial management
-- [ ] Carriage - Shipping and logistics
-- [ ] Invoices - Invoice generation and management
-- [ ] Kainodara - Custom business module
+- [x] Dashboard - Analytics and overview
+- [x] Products - Product management and catalogs
+- [ ] Orders - Order processing and tracking (under development)
+- [x] Balance - Financial management
+- [x] Carriage - Shipping and logistics
+- [x] Invoices - Invoice generation and management
+- [x] Price Rules - Price and discount management
 - [ ] Settings - Application configuration
-- [ ] Admin Panel - System administration
+- [x] Admin Panel - User and system administration
 
 ## Getting Started
 
@@ -95,7 +101,6 @@ Protected Routes (require authentication):
 - `/dashboard/*`
 - `/admin/*`
 - `/settings/*`
-- `/settings/*`
 
 Public Routes (redirect to dashboard if authenticated):
 
@@ -131,3 +136,4 @@ npx openapi-generate-html -i api.json api.html
 1. Create a feature branch
 2. Make your changes
 3. Submit a pull request# NextJS
+3. Submit a pull request
